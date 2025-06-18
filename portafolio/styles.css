@@ -1,0 +1,364 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #252424;
+}
+
+.menu{
+    
+    width: 100%;
+    height: 75px; /* o el alto que uses */
+    box-shadow: 0 0 60px 15px rgba(255, 255, 255, 0.1); /* sombra blanca difusa */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgb(37, 35, 35);
+}
+
+.logo {
+    width:90px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 180px;
+    margin-top: -10px;
+    
+}
+
+.nav{
+    position: fixed;
+    top: 15px;
+    right: 0;
+    width: 50%;
+    height: 50px;
+    z-index: 1000;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1 20px;
+    padding-right: 200px;
+    gap: 80px;
+    left: 680px;
+    white-space: nowrap;
+
+}
+
+.lis {
+    list-style: none;
+    color: aliceblue;
+    padding: 0.3rem;
+    border-radius: 0.25rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1.2rem;
+    
+}
+
+.section {
+    padding: 150px 20px; /* Espacio para el menú fijo */
+    margin-top: 85px; /* Altura del menú */
+    color: rgb(208, 213, 218);
+    margin-left: 150px;
+    font-size: 1.5rem;
+    height: 200px;
+    
+
+}
+
+.yo{
+    margin-top: 1px;
+}
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -25px;
+}
+.parrafo{
+    font-family:"Playfair Display", serif ;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: aliceblue;
+    margin-top: 18px;
+    margin-left: 90px;
+    width: 50%;
+
+}
+
+.perfil{
+    text-align: right;
+    margin-right: 300px;
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -298px;
+    margin-left: 900px;
+
+}
+.nombre{
+    margin-left: 1010px;
+    position: absolute;
+    background: #587d95;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+    
+}
+
+.icono{
+    width: 40px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.section2{
+    height: 435px ;
+    
+    
+
+
+}
+
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1px;
+    margin-left: 450px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.parrafo2{
+    font-family:"Playfair Display", serif ;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 700px;
+    display: flex;
+    
+
+}
+
+.you{
+    position: static;
+    margin-top: -330px;
+    margin-left: 200px;
+    text-align: right;
+    margin-right: 300px;
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.section3{
+    height: 300px ;
+    
+    
+}
+
+.habilida{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1px;
+    margin-left: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.habilidades{
+    display: grid;
+    grid-template-columns: repeat(9 , 1fr); /* 4 columnas */
+    
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 8px;
+    
+
+}
+
+.habilidad{
+
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1px;
+    margin-left: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.icono2{
+    width: 70px;
+    height: 60px;
+    margin-top: 20px;
+
+}
+
+.ph{
+    
+}
+
+.section4 {
+    height: 550px;
+    color: white;
+    text-align: center;
+    
+}
+.pros {
+    text-align: center;
+    color: #f3eeee;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+        
+.tarjeta {
+    background: rgb(70, 68, 68);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    Overflow: hidden;
+}
+        
+.tarjeta-imagen {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+        
+.tarjeta-contenido {
+    padding: 15px;
+    background: #313030;
+}
+        
+.tarjeta h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #0681fc;
+}
+        
+.tarjeta p {
+    color: #f7f3f3;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+        
+.tarjeta-tecnologias {
+    margin-bottom: 15px;
+}
+        
+.tecnologia {
+    display: inline-block;
+    background: #04468d;
+    color: #eaecef;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+        
+.boton {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 8px;
+}
+        
+.boton:hover {
+    background: #2980b9;
+}
+.section5{
+    height: 250px;
+}
+.contas{
+    text-align: center;
+    color: #f3efef;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 150px;
+}
+
+
+.informacion {
+    margin-bottom: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px ;
+}
+
+.h9 {
+    font-size: 1.2rem;
+    color: #fef8f8;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.h8, .informacion a {
+    color: #e6dddd;
+    text-decoration: none;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    white-space: nowrap;
+
+}
+.h8{
+    color: #fef8f8;
+}
+
+.ha:hover {
+    color: #3a72e2;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.contacto-form {
+    flex: 5;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.footer{
+    color: #f3efef;
+    text-align: center;
+    background-color: #080808;
+    height: 50px;
+    
+
+}
+
+
